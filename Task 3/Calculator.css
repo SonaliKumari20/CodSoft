@@ -1,0 +1,148 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    box-shadow: #330867 100%;
+    background-image: linear-gradient(#fff 100%);
+    font-size: 60px;
+    background-color: rgb(175, 203, 231);
+    font-family: fantasy;
+    letter-spacing: 5px;
+    align-items: center;
+    color: rgb(0, 0, 11);
+}
+
+.cal {
+    height: 100vh;
+   /* background-image: linear-gradient(to top, #016170, #fff 100%);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgb(222, 197, 197);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 83, 121, 1) 35%,
+            rgba(6, 81, 169, 1) 58%, rgba(5, 93, 177, 1) 62%, rgba(5, 102, 183, 1) 65%, rgba(4, 121, 195, 1) 71%,
+            rgba(2, 174, 230, 1) 88%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.Calculator {
+align-items: center;
+padding: 40px;
+border-radius: 30px;
+/*background-color: rgb(180, 17, 17);*/
+background-color: rgba(241, 238, 214, 0.907);
+justify-content: center;
+width: 44vh;
+height: 55vh;
+border: 3px solid hsl(120, 3%, 6%);
+}
+
+form .screen {
+    width: 41.5vh;
+    height: 10vh;
+    background-color: black;
+    border: 2px solid #4CAF50;
+    font-size: 27px;
+    color: whitesmoke;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    width: 70px;
+    height: 65px;
+    align-items: center;
+    justify-items: center;
+   
+}
+
+.btns {
+   margin: 5px;
+    padding: 1px;
+
+}
+
+.btn-c {
+    padding: 8px;
+    border-radius: 12px;
+    background-color: black;
+    border: 2px solid #4CAF50;
+    font-size: 27px;
+    font-weight: bold;
+    color: aqua;
+
+}
+
+.btn-numeric {
+    padding: 8px;
+    border-radius: 12px;
+    background-color: black;
+    border: 2px solid #4CAF50;
+    font-size: 27px;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+
+
+.btn-bckspc{
+    padding: 8px;
+    border-radius: 12px;
+    background-color: black;
+    border: 2px solid #4CAF50;
+    font-size: 27px;
+    font-weight: bold;
+    color: aqua;
+}
+
+.btn-equal {
+    padding: 8px;
+    border-radius: 12px;
+    background-color: black;
+    border: 2px solid #4CAF50;
+    font-size: 27px;
+    font-weight: bold;
+    color: aqua;
+
+}
+
+.btn-operator {
+    padding: 8px;
+    border-radius: 12px;
+    background-color: black;
+    border: 2px solid #4CAF50;
+    font-size: 27px;
+    font-weight: bold;
+    color: aqua;
+}
+
+.btn-c:hover {
+    color: #fff;
+    background-image: linear-gradient(rgb(14, 14, 14), rgb(194, 20, 20));
+    box-shadow: 0 14px 28px rgb(227, 8, 8), 0 10px 10px rgb(157, 114, 114);
+
+}
+
+.btn-equal:hover {
+    background: rgb(20, 148, 3);
+    color: white;
+    box-shadow: 0 14px 28px rgb(41, 184, 1), 0 10px 10px rgb(141, 240, 108);
+}
+
+.btn-numeric:hover {
+    color: rgb(248, 247, 245);
+
+    box-shadow: 0 11px 30px rgb(246, 244, 244), 0 10px 10px rgb(190, 178, 173);
+
+}
+
+.btn-operator:hover {
+    color: rgb(239, 121, 10);
+    background: rgb(10, 10, 10);
+    box-shadow: 0 11px 30px rgb(246, 244, 244), 0 10px 10px rgb(190, 178, 173);
+
+}
